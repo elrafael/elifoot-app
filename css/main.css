@@ -1,0 +1,45 @@
+
+
+.space-bottom{
+	margin-bottom: 30px;
+}
+
+.seasons-teams img{
+	height: 100px;
+	margin-top: 25px;
+}
+
+.fixtures > div {
+	margin-bottom: 30px;
+}
+
+.fixtures .list-group-item.win{
+	background-color: rgba(0, 255, 0, .25);
+}
+
+.fixtures .list-group-item.draw{
+	background-color: rgba(0, 0, 0, .25);
+}
+
+.fixtures .list-group-item.lose{
+	background-color: rgba(255, 0, 0, .25);
+}
+
+.fixtures .list-group-item.not-played{
+	background-color: rgba(255, 255, 255, 1);
+}
+
+.players > div{
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.players .number{
+	border: 1px solid rgba(0, 0, 0, .5);
+	border-radius: 5px;
+	margin: 0;
+	font-size: 25px;
+	padding: 50px 0;
+	width: 50%;
+	display: inline-block;
+}
